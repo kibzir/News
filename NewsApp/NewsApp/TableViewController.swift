@@ -63,15 +63,7 @@ class TableViewController: UITableViewController {
         content.text = article.title
         content.textProperties.numberOfLines = 3
         cell.contentConfiguration = content
-        
-        
-        /*
-         if let url = URL(string: article.urlToImage){
-             
-             ImageView.image = UIImage(data: try! Data(contentsOf: url))
-         }
-         */
-
+   
         return cell
     }
     
