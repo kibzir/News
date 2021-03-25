@@ -23,18 +23,8 @@ class StartScreen: UIViewController {
             
             self.Animated.center.y -= 100
             
-            
-            
-        }, completion: nil)
+            }, completion: nil)
        
-        
-        
-      /*  //self.Animated.center = self.view.center
-         self.Animated.frame.size.width = 10
-         */
-        
-        
-        
     }
     
     

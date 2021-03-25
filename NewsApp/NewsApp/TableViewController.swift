@@ -64,42 +64,6 @@ class TableViewController: UITableViewController {
         content.textProperties.numberOfLines = 3
         cell.contentConfiguration = content
         
-        /* if let url = URL(string: article.urlToImage){
-             content.image = UIImage(data: try! Data(contentsOf: url))
-             content.imageProperties.cornerRadius = tableView.rowHeight / 2
-       
-         } */
-        
-        
-        
-        
-        
-        
-  
-      /*  cell.textLabel?.text = article.title
-        cell.textLabel?.numberOfLines = 3
-        
-        if let url = URL(string: article.urlToImage){
-            cell.imageView?.image = UIImage(data: try! Data(contentsOf: url))
-            cell.imageView?.layer.cornerRadius = tableView.rowHeight / 2
-            cell.imageView?.clipsToBounds = true
-        } else {
-            
-            cell.imageView?.image = UIImage(contentsOfFile: "noimage.png")
-        }
-        
-      */
-        
-        
-      /*  var content = cell.defaultContentConfiguration()
-        content.text = article.title
-        content.image = UIImage (named: )
-        content.ImageProperties.cornerRadius = tableView.rowHeght / 2
-       */
-        
-       // cell.imageView?.image = UIImage
-        //cell.imageView?.layer.cornerRadius = tableView.rowHeght / 2
-        //cell.imageView?.clipsToBounds = true
         
         /*
          if let url = URL(string: article.urlToImage){
